@@ -31,7 +31,7 @@ var rxjs_1 = require('rxjs'),
   isSensorConnected = function (e) {
     return connectedSensors.includes(e);
   },
-  PORT = 5e3,
+  PORT = 5000,
   initialized = !1,
   wss = new ws_1.default.Server({ port: PORT });
 
